@@ -147,7 +147,7 @@ const ExpandedFooter: React.FC<ExpandedFooterProps> = ({ pool, account }) => {
         </Flex>
       )}
       <Flex mb="2px" justifyContent="flex-end">
-        <LinkExternal href={`https://pancakeswap.info/token/${getAddress(earningToken.address)}`} bold={false} small>
+        <LinkExternal href={`https://blockscout.egem.io/tokens/${getAddress(earningToken.address)}`} bold={false} small>
           {t('See Token Info')}
         </LinkExternal>
       </Flex>

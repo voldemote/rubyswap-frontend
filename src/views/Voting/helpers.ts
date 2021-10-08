@@ -4,7 +4,7 @@ import { SNAPSHOT_HUB_API, SNAPSHOT_VOTING_API } from 'config/constants/endpoint
 import { BIG_ZERO } from 'utils/bigNumber'
 import { Proposal, ProposalState, ProposalType, Vote } from 'state/types'
 import { simpleRpcProvider } from 'utils/providers'
-import { ADMIN_ADDRESS, PANCAKE_SPACE, SNAPSHOT_VERSION } from './config'
+import { ADMIN_ADDRESS, PANRUBY_SPACE, SNAPSHOT_VERSION } from './config'
 
 export const isCoreProposal = (proposal: Proposal) => {
   return proposal.author.toLowerCase() === ADMIN_ADDRESS.toLowerCase()
@@ -50,7 +50,7 @@ export const generatePayloadData = () => {
   return {
     version: SNAPSHOT_VERSION,
     timestamp: (Date.now() / 1e3).toFixed(),
-    space: PANCAKE_SPACE,
+    space: PANRUBY_SPACE,
   }
 }
 

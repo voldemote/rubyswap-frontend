@@ -144,7 +144,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, displayApr, removed, cakePric
         <DetailsSection
           removed={removed}
           bscScanAddress={getBscScanLink(lpAddress, 'address')}
-          infoAddress={`https://pancakeswap.info/pool/${lpAddress}`}
+          infoAddress={`https://blockscout.egem.io/tokens/${lpAddress}`}
           totalValueFormatted={totalValueFormatted}
           lpLabel={lpLabel}
           addLiquidityUrl={addLiquidityUrl}

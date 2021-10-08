@@ -3,7 +3,7 @@ import { Nft, NftSource, NftType } from './types'
 export const IPFS_GATEWAY = 'https://cloudflare-ipfs.com'
 
 export const nftSources: NftSource = {
-  [NftType.PANCAKE]: {
+  [NftType.PANRUBY]: {
     address: {
       56: '0xDf7952B35f24aCF7fC0487D01c8d5690a60DBa07',
       1987: '0x60935F36e4631F73f0f407e68642144e07aC7f5E', // bad
@@ -36,7 +36,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'claire',
-    type: NftType.PANCAKE,
+    type: NftType.PANRUBY,
     variationId: 17,
   },
   {
@@ -54,7 +54,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'syrup-soak',
-    type: NftType.PANCAKE,
+    type: NftType.PANRUBY,
     variationId: 16,
   },
   {
@@ -114,7 +114,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'easter-champion-storm',
-    type: NftType.PANCAKE,
+    type: NftType.PANRUBY,
     variationId: 15,
   },
   {
@@ -128,7 +128,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'easter-caker',
-    type: NftType.PANCAKE,
+    type: NftType.PANRUBY,
     variationId: 15,
   },
   {
@@ -142,7 +142,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'easter-flipper',
-    type: NftType.PANCAKE,
+    type: NftType.PANRUBY,
     variationId: 14,
   },
   {
@@ -156,7 +156,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'easter-storm',
-    type: NftType.PANCAKE,
+    type: NftType.PANRUBY,
     variationId: 12,
   },
   {
@@ -174,7 +174,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'bullish',
-    type: NftType.PANCAKE,
+    type: NftType.PANRUBY,
     variationId: 11,
   },
   {
@@ -188,7 +188,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'hiccup',
-    type: NftType.PANCAKE,
+    type: NftType.PANRUBY,
     variationId: 10,
   },
   {
@@ -203,7 +203,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'sleepy',
-    type: NftType.PANCAKE,
+    type: NftType.PANRUBY,
     variationId: 5,
   },
   {
@@ -218,7 +218,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'sunny',
-    type: NftType.PANCAKE,
+    type: NftType.PANRUBY,
     variationId: 9,
   },
   {
@@ -233,7 +233,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'churro',
-    type: NftType.PANCAKE,
+    type: NftType.PANRUBY,
     variationId: 8,
   },
   {
@@ -248,7 +248,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'dollop',
-    type: NftType.PANCAKE,
+    type: NftType.PANRUBY,
     variationId: 6,
   },
   {
@@ -263,7 +263,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'twinkle',
-    type: NftType.PANCAKE,
+    type: NftType.PANRUBY,
     variationId: 7,
   },
   {
@@ -278,7 +278,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'swapsies',
-    type: NftType.PANCAKE,
+    type: NftType.PANRUBY,
     variationId: 0,
   },
   {
@@ -293,7 +293,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'drizzle',
-    type: NftType.PANCAKE,
+    type: NftType.PANRUBY,
     variationId: 1,
   },
   {
@@ -308,7 +308,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'blueberries',
-    type: NftType.PANCAKE,
+    type: NftType.PANRUBY,
     variationId: 2,
   },
   {
@@ -323,7 +323,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'circular',
-    type: NftType.PANCAKE,
+    type: NftType.PANRUBY,
     variationId: 3,
   },
   {
@@ -338,7 +338,7 @@ const Nfts: Nft[] = [
     },
     sortOrder: 999,
     identifier: 'sparkle',
-    type: NftType.PANCAKE,
+    type: NftType.PANRUBY,
     variationId: 4,
   },
 ]

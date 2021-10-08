@@ -121,7 +121,7 @@
       {
         "indexed": false,
         "internalType": "uint256",
-        "name": "priceTicketInCake",
+        "name": "priceTicketInRuby",
         "type": "uint256"
       },
       {
@@ -504,7 +504,7 @@
   },
   {
     "inputs": [],
-    "name": "maxPriceTicketInCake",
+    "name": "maxPriceTicketInRuby",
     "outputs": [
       {
         "internalType": "uint256",
@@ -517,7 +517,7 @@
   },
   {
     "inputs": [],
-    "name": "minPriceTicketInCake",
+    "name": "minPriceTicketInRuby",
     "outputs": [
       {
         "internalType": "uint256",
@@ -622,16 +622,16 @@
     "inputs": [
       {
         "internalType": "uint256",
-        "name": "_minPriceTicketInCake",
+        "name": "_minPriceTicketInRuby",
         "type": "uint256"
       },
       {
         "internalType": "uint256",
-        "name": "_maxPriceTicketInCake",
+        "name": "_maxPriceTicketInRuby",
         "type": "uint256"
       }
     ],
-    "name": "setMinAndMaxTicketPriceInCake",
+    "name": "setMinAndMaxTicketPriceInRuby",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
@@ -668,7 +668,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "_priceTicketInCake",
+        "name": "_priceTicketInRuby",
         "type": "uint256"
       },
       {
@@ -760,7 +760,7 @@
           },
           {
             "internalType": "uint256",
-            "name": "priceTicketInCake",
+            "name": "priceTicketInRuby",
             "type": "uint256"
           },
           {
@@ -800,7 +800,7 @@
           },
           {
             "internalType": "uint256",
-            "name": "amountCollectedInCake",
+            "name": "amountCollectedInRuby",
             "type": "uint256"
           },
           {

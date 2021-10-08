@@ -27,8 +27,8 @@
       "logoURI": "https://raw.githubusercontent.com/top1st/token-assets/main/png/ruby.png"
     },
     {
-      "name": "WBNB Token",
-      "symbol": "WBNB",
+      "name": "WEGEM Token",
+      "symbol": "WEGEM",
       "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
       "chainId": 56,
       "decimals": 18,
@@ -68,7 +68,7 @@
     },
     {
       "name": "RubySwap Token",
-      "symbol": "CAKE",
+      "symbol": "RUBY",
       "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
       "chainId": 56,
       "decimals": 18,
@@ -91,7 +91,7 @@
       "logoURI": "https://rubyswap.finance/images/tokens/0x4bd17003473389a42daf6a0a729f6fdb328bbbd7.png"
     },
     {
-      "name": "Pancake Bunny",
+      "name": "Rubyswap Bunny",
       "symbol": "BUNNY",
       "address": "0xC9849E6fdB743d08fAeE3E34dd2D1bc69EA11a51",
       "chainId": 56,

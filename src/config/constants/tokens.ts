@@ -5,7 +5,7 @@ export const RUBY: { [chainId: number]: Token } = {
     ChainId.MAINNET,
     '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
     18,
-    'CAKE',
+    'RUBY',
     'PancakeSwap Token',
   ),
   [ChainId.ETHERGEM]: new Token(
@@ -33,7 +33,7 @@ export const BUSD: { [chainId: number]: Token } = {
   ),
 }
 
-export const WBNB = new Token(ChainId.ETHERGEM, '0xE5fca20e55811D461800A853f444FBC6f5B72BEa', 18, 'WEGEM', 'Wrapped ETH')
+export const WBNB = new Token(ChainId.ETHERGEM, '0xE5fca20e55811D461800A853f444FBC6f5B72BEa', 18, 'WEGEM', 'Wrapped ETHERGEM')
 export const DAI = new Token(ChainId.MAINNET, '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3', 18, 'DAI', 'Dai Stablecoin')
 export const USDT = new Token(ChainId.MAINNET, '0x55d398326f99059fF775485246999027B3197955', 18, 'USDT', 'Tether USD')
 export const BTCB = new Token(ChainId.MAINNET, '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c', 18, 'BTCB', 'Binance BTC')

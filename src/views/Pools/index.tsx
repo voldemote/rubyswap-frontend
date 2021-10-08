@@ -249,10 +249,6 @@ const Pools: React.FC = () => {
               {t('High APR, low risk.')}
             </Heading>
           </Flex>
-          <Flex flex="1" height="fit-content" justifyContent="center" alignItems="center" mt={['24px', null, '0']}>
-            <HelpButton />
-            {/* <BountyCard /> */}
-          </Flex>
         </Flex>
       </PageHeader>
       <Page>
@@ -317,7 +313,7 @@ const Pools: React.FC = () => {
         {/*  mx="auto" */}
         {/*  mt="12px" */}
         {/*  src="/images/decorations/3d-syrup-bunnies.png" */}
-        {/*  alt="Pancake illustration" */}
+        {/*  alt="Rubyswap illustration" */}
         {/*  width={192} */}
         {/*  height={184.5} */}
         {/* /> */}

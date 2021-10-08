@@ -261,7 +261,7 @@
   },
   {
     "inputs": [],
-    "name": "calculateHarvestCakeRewards",
+    "name": "calculateHarvestRubyRewards",
     "outputs": [
       {
         "internalType": "uint256",
