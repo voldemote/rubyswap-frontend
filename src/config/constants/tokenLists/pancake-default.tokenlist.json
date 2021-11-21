@@ -74,6 +74,22 @@
       "decimals": 18,
       "logoURI": "https://rubyswap.finance/images/tokens/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82.png"
     },
+     {
+      "name": "TrueUSD",
+      "symbol": "TUSD",
+      "address": "0x33F4999ee298CAa16265E87f00e7A8671c01D870",
+      "chainId": 1987,
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/3449/small/tusd.png"
+    },
+    {
+      "name": "WBNB",
+      "symbol": "WBNB",
+      "address": "0x97271a78C9778F226C1c4eFe63876c04f8cD8F40",
+      "chainId": 1987,
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/825/small/binance-coin-logo.png"
+    },
     {
       "name": "Venus",
       "symbol": "XVS",
