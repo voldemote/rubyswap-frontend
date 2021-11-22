@@ -1,6 +1,7 @@
-import { Currency, Percent, Price } from '@pancakeswap/sdk'
+import { Currency, Percent, Price } from '@twinkykms/rubyswap-sdk'
+
 import React from 'react'
-import { Text } from '@pancakeswap/uikit'
+import { Text } from '@twinkykms/rubyswap-uikit'
 import { useTranslation } from 'contexts/Localization'
 import { AutoColumn } from '../../components/Layout/Column'
 import { AutoRow } from '../../components/Layout/Row'

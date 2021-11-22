@@ -1,6 +1,7 @@
-import { Currency, CurrencyAmount, Fraction, Percent } from '@pancakeswap/sdk'
+import { Currency, CurrencyAmount, Fraction, Percent } from '@twinkykms/rubyswap-sdk'
+
 import React from 'react'
-import { Button, Text } from '@pancakeswap/uikit'
+import { Button, Text } from '@twinkykms/rubyswap-uikit'
 import { useTranslation } from 'contexts/Localization'
 import { RowBetween, RowFixed } from '../../components/Layout/Row'
 import { CurrencyLogo } from '../../components/Logo'

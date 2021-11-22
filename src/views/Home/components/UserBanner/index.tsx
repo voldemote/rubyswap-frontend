@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardBody, Flex } from '@pancakeswap/uikit'
+import { Card, CardBody, Flex } from '@twinkykms/rubyswap-uikit'
 import styled from 'styled-components'
 import HarvestCard from './HarvestCard'
 import UserDetail from './UserDetail'

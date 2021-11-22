@@ -3462,6 +3462,32 @@
     node-interval-tree "^1.3.3"
     web3-utils "1.4.0"
 
+"@twinkykms/rubyswap-sdk@^2.3.7":
+  version "2.3.7"
+  resolved "https://registry.yarnpkg.com/@twinkykms/rubyswap-sdk/-/rubyswap-sdk-2.3.7.tgz#5693a717ecba4eb33265a0aca378f4f0d5021adf"
+  integrity sha512-gEOWi+Ibes/AuT3x5DbrlPpMX8PMBjS/knd5WaKwemgsx5sPh035dSNg+X4+gt4xtZWkx/i9ewAkz2Jg8o++hw==
+  dependencies:
+    "@pancakeswap-libs/pancake-swap-core" "^0.1.0"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.1"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
+
+"@twinkykms/rubyswap-uikit@^0.42.1":
+  version "0.42.1"
+  resolved "https://registry.yarnpkg.com/@twinkykms/rubyswap-uikit/-/rubyswap-uikit-0.42.1.tgz#dd4e8745f6e6892c933d74ccdd50af925f42ea29"
+  integrity sha512-ptIKEqYBuhcFotZE4q2StyEC7awoy44LIFxXc1FhF7FMkyUcKn8QlHf+N6I6CEYetPAdhGju+0yJ2W2YhNgHxA==
+  dependencies:
+    "@popperjs/core" "^2.9.2"
+    "@types/lodash" "^4.14.168"
+    "@types/styled-system" "^5.1.10"
+    lodash "^4.17.20"
+    react-popper "^2.2.5"
+    react-transition-group "^4.4.1"
+    styled-system "^5.1.5"
+
 "@types/accepts@*", "@types/accepts@^1.3.5":
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/@types/accepts/-/accepts-1.3.5.tgz#c34bec115cfc746e04fe5a059df4ce7e7b391575"

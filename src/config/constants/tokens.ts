@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@pancakeswap/sdk'
+import { ChainId, Token } from '@twinkykms/rubyswap-sdk'
 
 export const RUBY: { [chainId: number]: Token } = {
   [ChainId.MAINNET]: new Token(

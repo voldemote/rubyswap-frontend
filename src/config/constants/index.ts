@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Percent, Token, WETH } from '@pancakeswap/sdk'
+import { ChainId, JSBI, Percent, Token, WETH } from '@twinkykms/rubyswap-sdk'
 import { BUSD, DAI, USDT, BTCB, RUBY, WBNB, UST, ETH, USDC } from './tokens'
 
 export const ROUTER_ADDRESS = '0x6739D25c56d13F14E05a8eadBF237057023F2f4D'
