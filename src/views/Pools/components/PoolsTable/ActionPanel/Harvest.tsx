@@ -123,7 +123,7 @@ const HarvestAction: React.FunctionComponent<HarvestActionProps> = ({
             {hasEarnings ? (
               <>
                 <Balance lineHeight="1" bold fontSize="20px" decimals={5} value={earningTokenBalance} />
-                {earningTokenPrice > 0 && (
+                {/* {earningTokenPrice > 0 && (
                   <Balance
                     display="inline"
                     fontSize="12px"
@@ -133,14 +133,14 @@ const HarvestAction: React.FunctionComponent<HarvestActionProps> = ({
                     value={earningTokenDollarBalance}
                     unit=" USD"
                   />
-                )}
+                )} */}
               </>
             ) : (
               <>
                 <Heading color="textDisabled">0</Heading>
-                <Text fontSize="12px" color="textDisabled">
+                {/* <Text fontSize="12px" color="textDisabled">
                   0 USD
-                </Text>
+                </Text> */}
               </>
             )}
           </>

@@ -79,14 +79,14 @@ const BountyModal: React.FC<BountyModalProps> = ({ onDismiss, TooltipComponent }
         <Flex flexDirection="column">
           <Balance bold value={cakeBountyToDisplay} decimals={7} unit=" RUBY" />
           <Text fontSize="12px" color="textSubtle">
-            <Balance
+            {/* <Balance
               fontSize="12px"
               color="textSubtle"
               value={dollarBountyToDisplay}
               decimals={2}
               unit=" USD"
               prefix="~"
-            />
+            /> */}
           </Text>
         </Flex>
       </Flex>

@@ -91,7 +91,7 @@ const BountyCard = () => {
                   <Skeleton height={20} width={96} mb="2px" />
                 )}
               </Heading>
-              {hasFetchedDollarBounty ? (
+              {/* {hasFetchedDollarBounty ? (
                 <Balance
                   fontSize="12px"
                   color="textSubtle"
@@ -102,7 +102,7 @@ const BountyCard = () => {
                 />
               ) : (
                 <Skeleton height={16} width={62} />
-              )}
+              )} */}
             </Flex>
             <Button
               disabled={!dollarBountyToDisplay || !cakeBountyToDisplay || !callFee}
