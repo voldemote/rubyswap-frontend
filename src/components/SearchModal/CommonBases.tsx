@@ -1,6 +1,6 @@
 import React from 'react'
-import { ChainId, Currency, currencyEquals, ETHER, Token } from '@pancakeswap/sdk'
-import { Text } from '@pancakeswap/uikit'
+import { ChainId, Currency, currencyEquals, ETHER, Token } from '@twinkykms/rubyswap-sdk'
+import { Text } from '@twinkykms/rubyswap-uikit'
 import styled from 'styled-components'
 import { useTranslation } from 'contexts/Localization'
 

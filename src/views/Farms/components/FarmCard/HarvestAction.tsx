@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import BigNumber from 'bignumber.js'
-import { Button, Flex, Heading } from '@pancakeswap/uikit'
+import { Button, Flex, Heading } from '@twinkykms/rubyswap-uikit'
 import { useTranslation } from 'contexts/Localization'
 import { useAppDispatch } from 'state'
 import { fetchFarmUserDataAsync } from 'state/farms'
@@ -33,9 +33,9 @@ const HarvestAction: React.FC<FarmCardActionsProps> = ({ earnings, pid }) => {
     <Flex mb="8px" justifyContent="space-between" alignItems="center">
       <Flex flexDirection="column" alignItems="flex-start">
         <Heading color={rawEarningsBalance.eq(0) ? 'textDisabled' : 'text'}>{displayBalance}</Heading>
-        {earningsBusd > 0 && (
+        {/* {earningsBusd > 0 && (
           <Balance fontSize="12px" color="textSubtle" decimals={2} value={earningsBusd} unit=" USD" prefix="~" />
-        )}
+        )} */}
       </Flex>
       <Button
         disabled={rawEarningsBalance.eq(0) || pendingTx}

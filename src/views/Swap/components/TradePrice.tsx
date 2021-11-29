@@ -1,6 +1,7 @@
 import React from 'react'
-import { Price } from '@pancakeswap/sdk'
-import { Text, AutoRenewIcon } from '@pancakeswap/uikit'
+
+import { Price } from '@twinkykms/rubyswap-sdk'
+import { Text, AutoRenewIcon } from '@twinkykms/rubyswap-uikit'
 import { StyledBalanceMaxMini } from './styleds'
 
 interface TradePriceProps {

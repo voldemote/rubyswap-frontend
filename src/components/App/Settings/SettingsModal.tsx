@@ -9,7 +9,7 @@ import {
   ModalBody,
   InjectedModalProps,
   Toggle
-} from '@pancakeswap/uikit'
+} from '@twinkykms/rubyswap-uikit'
 import {
   useAudioModeManager,
   useExpertModeManager,

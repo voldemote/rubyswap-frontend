@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex, Text, Button, IconButton, AddIcon, MinusIcon, useModal, Skeleton, useTooltip } from '@pancakeswap/uikit'
+import { Flex, Text, Button, IconButton, AddIcon, MinusIcon, useModal, Skeleton, useTooltip } from '@twinkykms/rubyswap-uikit'
 import BigNumber from 'bignumber.js'
 import { useTranslation } from 'contexts/Localization'
 import { getBalanceNumber } from 'utils/formatBalance'
@@ -67,7 +67,7 @@ const StakeAction: React.FC<StakeActionsProps> = ({
         <Flex flexDirection="column">
           <>
             <Balance bold fontSize="20px" decimals={3} value={stakedTokenBalance} />
-            {stakingTokenPrice !== 0 && (
+            {/* {stakingTokenPrice !== 0 && (
               <Text fontSize="12px" color="textSubtle">
                 <Balance
                   fontSize="12px"
@@ -78,7 +78,7 @@ const StakeAction: React.FC<StakeActionsProps> = ({
                   unit=" USD"
                 />
               </Text>
-            )}
+            )} */}
           </>
         </Flex>
         <Flex>

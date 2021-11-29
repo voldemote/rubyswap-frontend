@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { Token, Currency } from '@pancakeswap/sdk'
-import { Button, Text, ErrorIcon, Flex, Message, Checkbox, Link, Tag, Grid } from '@pancakeswap/uikit'
+import { Token, Currency } from '@twinkykms/rubyswap-sdk'
+import { Button, Text, ErrorIcon, Flex, Message, Checkbox, Link, Tag, Grid } from '@twinkykms/rubyswap-uikit'
 import { AutoColumn } from 'components/Layout/Column'
 import { useAddUserToken } from 'state/user/hooks'
 import { getBscScanLink } from 'utils'

@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react'
 import styled from 'styled-components'
-import { Button, useModal, IconButton, AddIcon, MinusIcon, Skeleton, Text } from '@pancakeswap/uikit'
+import { Button, useModal, IconButton, AddIcon, MinusIcon, Skeleton, Text } from '@twinkykms/rubyswap-uikit'
 import { useLocation } from 'react-router-dom'
 import { BigNumber } from 'bignumber.js'
 import ConnectWalletButton from 'components/ConnectWalletButton'
@@ -130,7 +130,7 @@ const Staked: React.FunctionComponent<StackedActionProps> = ({
           <ActionContent>
             <div>
               <Earned>{displayBalance()}</Earned>
-              {stakedBalance.gt(0) && lpPrice.gt(0) && (
+              {/* {stakedBalance.gt(0) && lpPrice.gt(0) && (
                 <Balance
                   fontSize="12px"
                   color="textSubtle"
@@ -139,7 +139,7 @@ const Staked: React.FunctionComponent<StackedActionProps> = ({
                   unit=" USD"
                   prefix="~"
                 />
-              )}
+              )} */}
             </div>
             <IconButtonWrapper>
               <IconButton variant="secondary" onClick={onPresentWithdraw} mr="6px">

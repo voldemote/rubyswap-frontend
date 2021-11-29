@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Button, Skeleton, Text } from '@pancakeswap/uikit'
+import { Button, Skeleton, Text } from '@twinkykms/rubyswap-uikit'
 import BigNumber from 'bignumber.js'
 import { useWeb3React } from '@web3-react/core'
 import { FarmWithStakedValue } from 'views/Farms/components/FarmCard/FarmCard'
@@ -53,9 +53,9 @@ const HarvestAction: React.FunctionComponent<HarvestActionProps> = ({ pid, userD
       <ActionContent>
         <div>
           <Earned>{displayBalance}</Earned>
-          {earningsBusd > 0 && (
+          {/* {earningsBusd > 0 && (
             <Balance fontSize="12px" color="textSubtle" decimals={2} value={earningsBusd} unit=" USD" prefix="~" />
-          )}
+          )} */}
         </div>
         <Button
           disabled={earnings.eq(0) || pendingTx || !userDataReady}

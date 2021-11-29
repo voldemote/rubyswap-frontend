@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex, Text, Button, Heading, useModal, Skeleton } from '@pancakeswap/uikit'
+import { Flex, Text, Button, Heading, useModal, Skeleton } from '@twinkykms/rubyswap-uikit'
 import BigNumber from 'bignumber.js'
 import { Token } from 'config/constants/types'
 import { useTranslation } from 'contexts/Localization'
@@ -53,7 +53,8 @@ const HarvestActions: React.FC<HarvestActionsProps> = ({
           <Skeleton width="80px" height="48px" />
         ) : (
           <>
-            {hasEarnings ? (
+            <Balance bold fontSize="20px" decimals={5} value={earningTokenBalance} />
+            {/* {hasEarnings ? (
               <>
                 <Balance bold fontSize="20px" decimals={5} value={earningTokenBalance} />
                 {earningTokenPrice > 0 && (
@@ -75,7 +76,7 @@ const HarvestActions: React.FC<HarvestActionsProps> = ({
                   0 USD
                 </Text>
               </>
-            )}
+            )} */}
           </>
         )}
       </Flex>

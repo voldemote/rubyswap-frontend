@@ -1,4 +1,4 @@
-import { Pair, Token } from '@pancakeswap/sdk'
+import { Pair, Token } from '@twinkykms/rubyswap-sdk'
 import flatMap from 'lodash/flatMap'
 import { useCallback, useMemo } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
