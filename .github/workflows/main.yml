@@ -22,7 +22,7 @@ jobs:
       run: find build/ -print
       
     - name: 📂 Sync files
-      uses: Rubyswap/FTP-Deploy-Action@1.0.0
+      uses: snowMan108/rubyswap-frontend@1.0.0
       with:
         server: ftp.rubyswap.finance
         username: bino86@exchange.rubyswap.finance
