@@ -15,8 +15,8 @@ jobs:
 
       - name: 🔨 Build Project
         run: |
-          npm install
-          npm run build
+          yarn install
+          yarn run build
 
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
