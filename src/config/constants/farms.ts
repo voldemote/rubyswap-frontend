@@ -24,6 +24,26 @@ const farms: FarmConfig[] = [
     },
     token: tokens.ruby,
     quoteToken: tokens.wegem,
+  },
+  {
+    pid: 3,
+    lpSymbol: 'TUSD-EGEM LP',
+    lpAddresses: {
+      1987: '0x5a0Eec60E427d2dB2dFe93CDceda81251E242d0E',
+      // 56: '0x0eD7e52944161450477ee417DE9Cd3a859b14fD0',
+    },
+    token: tokens.tusd,
+    quoteToken: tokens.wegem,
+  },
+  {
+    pid: 4,
+    lpSymbol: 'TUSD-RUBY LP',
+    lpAddresses: {
+      1987: '0x86B4B00CCB7afd1b1b96afe6dE9422d360e2fF5A',
+      // 56: '0x0eD7e52944161450477ee417DE9Cd3a859b14fD0',
+    },
+    token: tokens.tusd,
+    quoteToken: tokens.ruby,
   }
 ]
 

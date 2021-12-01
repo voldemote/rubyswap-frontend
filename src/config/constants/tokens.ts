@@ -85,6 +85,13 @@ const tokens = {
       1987: "0xaf017fe9C9770BdbDA1A014D5D6c87B364225Cd0"
     },
     decimals: 18
+  },
+  tusd: {
+    symbol: "TUSD",
+    address: {
+      1987: "0x33F4999ee298CAa16265E87f00e7A8671c01D870"
+    },
+    decimals: 18
   }
 }
 
