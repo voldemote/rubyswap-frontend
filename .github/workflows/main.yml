@@ -1,30 +1,27 @@
 on: push
-name: 🚀 Deploy website on push
+name: 🚀 Deploy website
 jobs:
   web-deploy:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: 🚚 Get latest code
-      uses: actions/checkout@v2
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
 
-    - name: Use Node.js 14
-      uses: actions/setup-node@v2-beta
-      with:
-        node-version: '14'
-      
-    - name: 🔨 Build Project
-      run: |
-        npm install
-        npm run build
-    
-    - name: List output files
-      run: find build/ -print
-      
-    - name: 📂 Sync files
-      uses: snowMan108/rubyswap-frontend@1.0.0
-      with:
-        server: ftp.rubyswap.finance
-        username: bino86@exchange.rubyswap.finance
-        password: ${{ secrets.password }}
-        local-dir: build/
+      - name: Use Node.js 12
+        uses: actions/setup-node@v2-beta
+        with:
+          node-version: "14.17.0"
+
+      - name: 🔨 Build Project
+        run: |
+          npm install
+          npm run build
+
+      - name: 📂 Sync files
+        uses: snowMan/rubyswap-frontend@1.0.0
+        with:
+          server: ftp.rubyswap.finance
+          username: bino86@exchange.rubyswap.finance
+          password: ${{ secrets.password }}
+          local-dir: ./build/
