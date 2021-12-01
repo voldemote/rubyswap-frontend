@@ -19,7 +19,6 @@ jobs:
           npm run build
 
       - name: 📂 Sync files
-        uses: snowMan/rubyswap-frontend@1.0.0
         with:
           server: ftp.rubyswap.finance
           username: bino86@exchange.rubyswap.finance
