@@ -23,5 +23,5 @@ jobs:
         with:
           server: ftp.rubyswap.finance
           username: bino86@exchange.rubyswap.finance
-          password: ${{ secrets.password }}
+          password: m&RxU]&9%t(H
           local-dir: ./build/
